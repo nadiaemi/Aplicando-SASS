@@ -1,0 +1,83 @@
+header {
+  padding: 15px;
+  background-image: linear-gradient(#ffa586, #fdfdaa); }
+  header h1 {
+    font-family: "Arima Madurai", cursive;
+    color: #114f4f;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px; }
+
+body {
+  background-color: #ffffef;
+  font-family: "Public Sans", sans-serif; }
+
+.barraNavegacion {
+  background-color: #ff0579 !important; }
+  .barraNavegacion a {
+    color: #ffffef !important;
+    font-size: 18px; }
+    .barraNavegacion a:hover {
+      font-weight: bold; }
+
+.botonBuscar {
+  border: 1px solid #ffa586;
+  color: #ff0579;
+  background-color: #ffffef; }
+  .botonBuscar:hover {
+    background-color: #114f4f;
+    border: 1px solid #114f4f; }
+
+#carrusel {
+  width: 900px;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.contenedorDestacados {
+  margin: 100px auto; }
+
+.cajasDestacados {
+  text-align: center;
+  background-color: #ffa586;
+  padding: 20px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  transition: all 0.5s; }
+  .cajasDestacados:hover {
+    background-image: linear-gradient(to right, #ff0579, #ffa586); }
+  .cajasDestacados a {
+    text-decoration: none;
+    color: #161d1a;
+    font-size: 20px;
+    padding: 20px 15px; }
+
+#seccionLinksCalidad {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+.linksCalidad {
+  margin: 20px; }
+  .linksCalidad img {
+    width: 200px;
+    height: 150px;
+    border-radius: 100%;
+    margin: auto;
+    padding: 0px; }
+  .linksCalidad a {
+    text-decoration: none;
+    text-align: center;
+    color: #ff0579;
+    font-size: 18px; }
+    .linksCalidad a:hover {
+      color: #114f4f; }
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(#ffa586, #fdfdaa); }
+  footer a {
+    color: #161d1a !important;
+    font-size: 16px; }
+    footer a:hover {
+      text-decoration: underline; }
